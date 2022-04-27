@@ -1,2 +1,2 @@
-# javaproject
-Technical test
+# Java project
+__Technical test__
