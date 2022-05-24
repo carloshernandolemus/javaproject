@@ -1,0 +1,19 @@
+{
+    "deployment": {
+        "subservice": "/alumbrado",
+        "customHeaders": {
+            "commands": "/lightningcommands"
+        },
+        "sources": {
+            "vertical": {
+                "git": "https://github.com/telefonicasc/streetlight-vertical",
+                "tag": "urbo-deployer",
+                "files": [ "schema.json" ]
+            },
+            "entorno": {
+                "path": "./",
+                "files": [ "environment.json" ]
+            }
+        }
+    }
+}
